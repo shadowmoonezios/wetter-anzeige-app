@@ -21,6 +21,7 @@ app.get('/api/wetter/:stadt', (req, res) => {
   const stadt = req.params.stadt;
   // Hier sollte der API-Call zu OpenWeatherMap erfolgen
   // Zu diesem Zeitpunkt gibt die API aktuell nur statische Daten zurück.
+  // Temporär: Rückgabe eines festen Wetterstatus
   res.json({ stadt, wetter: "Sonnig", temperature: "20°C" });
 });
 
