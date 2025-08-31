@@ -23,7 +23,8 @@ app.get('/api/wetter/:stadt', (req, res) => {
   // Zu diesem Zeitpunkt gibt die API aktuell nur statische Daten zurück.
   // Temporär: Rückgabe eines festen Wetterstatus
   res.json({ stadt, wetter: "Sonnig", temperature: "20°C" });
-  // TODO: Replace the static response with dynamic weather data retrieval from OpenWeatherMap
+  // TODO: Ersetze die statische Antwort mit dynamischer Wetterdatenabfrage von OpenWeatherMap
+  // Dies sollte in Zukunft implementiert werden, um aktuelle Wetterinformationen bereitzustellen.
 });
 
 // Server starten
