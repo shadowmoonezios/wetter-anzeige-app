@@ -1,7 +1,7 @@
 {
   "name": "wetter-anzeige-app",
   "version": "1.0.0",
-  "description": "Eine einfache Full-Stack-Webanwendung zur Anzeige von Wetterdaten für verschiedene Städte.",
+  "description": "A simple full-stack web application for displaying weather data for various cities.",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
